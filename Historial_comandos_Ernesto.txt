@@ -1,0 +1,285 @@
+man man
+cd practica1
+cd
+cls
+pwd
+whoami
+id
+man man
+man fdisc
+man fdisk
+sudo apt update
+man man
+su -
+sudo su 
+locale
+man man
+man fdisk
+sudo apt install -y manpages-es 
+man man
+pwd
+id
+whoami
+echo $HOME
+echo$USER
+echo $USER
+env | more
+pwd
+echo $OLDPWD
+cd
+cd -
+cd..
+cd -
+cd
+temp
+mkdir -p eje1/{dir1,dir2}/{hijos_{1..3},distinto}
+tree eje1
+rm -r eje1
+mkdir -p eje1{ {dir1,dir2}/hijos_{1..3},dir2/distinto}
+tree eje1
+cd eje1
+rm -r eje1
+mkdir -p {dir1,dir2}
+echo "algo" >> dir1/archivo
+echo "algo" | tee -a dir2/archivo
+cat dir1/archivo  dir2/archivo  > union.txt
+cat union.txt 
+ll eje1
+cat eje1
+pwd
+echo -e
+cat echo
+mkdir -p eje1/prueba
+echo eje1
+temp
+ll eje1
+echo "hola  $1 hoy es: $FECHA"
+hola $(whoami)
+cd
+hola $(whoami)
+hthsr
+ls -l
+who
+chmod archivo.txt
+chmod --help
+chmod 644archivo.txt
+cat archivo.txt
+archivo.txt cat
+cat archivo txt
+cat practica1
+cat union.txt
+chmod755 union.txt
+ls -l
+cd dir1
+cd
+cd eje1
+ls
+tree prueba
+cd
+cd eje2
+cd
+ls -l
+rm -r dir1
+rm-r eje1
+rm -r eje1
+rm -r eje1{
+rm-r eje2
+rm -r eje2
+rm -r eje3
+ls -l
+id
+git status
+cd dir2/
+touch prueba.txt
+ls
+tree dir2
+ls prueba
+ls -l prueba
+ls prueba.txt
+ls -l pruebas.txt
+ls -l prueba.txt
+mv prueba.txt test.txt
+ls -l test.txt
+cd
+cd practica1/
+ls -l
+rm -r practica1
+cd
+rm -r practica1
+rm -r pratica1
+ls -l
+mkdir -p practica1/documentos
+cp /etc/hostname practica1/documentos
+mv practica1/documentos/hostname practica1/
+rm practica1/hostname
+rm -r practica1/documentos
+sudo useradd erne
+touch archivo.txt
+chmod 744 archivo.txt
+archivo.txt
+ls -l archivo.txt
+touch test.txt
+ls test.txt
+ls-l test.txt
+ls -l test.txt
+chmod 744 test.txt
+ls -l test.txt
+sudo chown erne: erne test.txt
+sudo chown pepe: erne archivo.txt
+sudo chown pepe: pepe archivo.txt
+sudo chown pepe
+man chown
+chown pepe/
+ls -l test.txt
+chmod 755 test.txt
+ls -l
+rm -r archivo.txt
+ls -l
+chmod 665 union.txt
+ls -l union.txt
+chmod 700 union.txt
+ls -l union
+chmod 644 union.txt
+ls -l union.txt
+chmod 765 union.txt
+ls -l union.txt
+chmod 755 union.txt
+ls -l union.txt
+ls -l archivo.txt
+chmod 765 archivo.txt
+sudo passwd erne
+cat /etc/passwd
+sudo groupadd pruebas_erne
+sudo usermod -aG pruebas_erne erne
+sudo usermod -aG pruebas_erne pepe
+ls -l pruebas_erne
+ls pruebas_erne
+groups pruebas_erne
+groups erne
+groups pepe
+useradd ana
+sudo useradd ana
+sudo useradd luis
+sudo useradd carla
+sudo groupadd proyecto1
+sudo usermod -aG proyecto1 ana
+sudo usermod -aG proyecto1 luis
+sudo usermod -aG proyecto1 carla
+groups carla
+groups luis
+groups ana
+sudo userdel -r ana
+sudo userdel ana
+sudo groupdel proyecto1
+id proyecto1
+getent grouṕ
+getent group
+id
+sudo groupadd equipo
+sudo useradd  marcos
+sudo useradd lucia
+sudo userdel marcos
+sudo userdel lucia
+sudo useradd -g marcos
+sudo useradd -g marcos equipo
+sudo useradd -g equipo marcos
+sudo useradd -g equipo lucia
+groupdel equipo
+sudo groupdel equipo
+sudo userdel marcos
+sudo userdel lucia
+sudo useradd -m -g equipo -s /bin/bash  marcos
+sudo useradd -m -g equipo -s /bin/bash lucia
+sudo mkdir /home/equipo_trabajo
+sudo chown :equipo /home/equipo_trabajo
+sudo chmod 770 /home/equipo_trabajo
+sudo chmod g+s /home/equipo_trabajo
+sudo -u marcos touch/home/equipo_trabajo/archivo_marcos.txt
+sudo -u lucia touch /home/equipo_trabajo/archivo_lucia.txt
+sudo -u marcos touch /home/equipo_trabajo/archivo_marcos.txt
+ls -l /home/equipo_trabajo
+sudo ls -l /home/equipo_trabajo
+ssh-keygen -t ed25519
+cat$HOME/.SSH/*.pub
+cat $HOME/.ssh/*.pub
+mkdir repogitcd repogit
+cd repogit
+gitclone <URL>
+git clone 
+sudo power
+cd repogit
+git clone git@github.com:biaxident-84/TP_AySO.git
+ls
+cd TP_AySO/
+pwd
+ls -l
+cat/etc7os-release
+cat /etc/os-release
+grep -i HOME_URL="https://www.ubuntu.com/"
+cd repogit
+git clone git@github.com:biaxident-84/TP_AySO.git
+pwd
+ls -l
+cat /etc/os-release
+grep HOME_URL="https://www.ubuntu.com/"
+cd repogit
+ls
+cd TP_AySO/
+ls
+ls -l
+cat /etc/os-release
+grep -iHOME_URL="https://www.ubuntu.com/"
+grep -i HOME_URL="https://www.ubuntu.com/"
+cd repogit
+ls
+cd TP_AySO/
+cat/etc/os-release
+cat /etc/os-release
+man grep
+grep  /etc/os-releaseHOME_URL="https://www.ubuntu.com/"
+cd repogit
+ls
+TP_AySO/
+cd TP_AySO/
+cat /etc/os-release
+cat/etc/os-release
+sudo grep -i  /etc/os-release"https://www.ubuntu.com/"
+ls -l
+cat /etc/os-release
+sudo grep -i "https://www.ubuntu.com/"   /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git add
+git add .
+git config -- global user.email "dominguezbass@gmail.com"
+git config --global user.email"dominguezbass@gmail.com"
+git config --global user.name "ernestdmgz"
+git commit -m "ADD:agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+grep "model name"/proc/cpuinfo | head -n1 >> datos_usuarios.txt
+vagrant ssh
+cd repogit
+l
+cd TP_AySO/
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+git commit -m "FEAT: Añadiendo informacion CPU"
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git commit -m "feat: Añadiendo informacion CPU"
+git status
+git commit -m "ADD:Añadiendo informacion de CPU"
+git status
+git push
+git add .
+git commit -m "ADD:Añadiendo informacion de CPU"
+git push
+cat <<EOF>> README.md
+Alumno: Ernesto
+Division: 313 Turno: Noche
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
