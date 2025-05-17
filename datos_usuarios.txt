@@ -1,2 +1,1 @@
-Usuario=vagrant
 model name	: AMD Ryzen 5 7530U with Radeon Graphics
